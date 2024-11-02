@@ -1,0 +1,10 @@
+.model CD4007p PMOS( L=1.6u W=23.7u Level=1 Gamma=0.8 Lambda=0.042 Vto=-0.5
++ Uo=158 Tox=18.2n Ld=100n Nsub=2.2E16 Phi=0.6 Pb=0.9
++ Cj=4.5E-4 Cjsw=2.5E-10 CGSO=1.9E-10 CGDO=1.9E-10 Mj=0.5 Mjsw=0.3
++ Rsh=10 KF=5E-26) 
+*	
+.model CD4007n NMOS( L=1.6u W=4.2u Level=1 Gamma=0.5 Lambda=0.0132 Vto=1.1
++ Uo=486 Tox=18.2n Ld=100n Nsub=1E15 Phi=0.6 Pb=0.9
++ Cj=2.5E-4 Cjsw=2.0E-10 CGSO=1.9E-10 CGDO=1.9E-10 Mj=0.5 Mjsw=0.3
++ Rsh=10 KF=5E-26)
+*
